@@ -5,7 +5,7 @@
 #"Hello, world!" is not
 
 def isPangram(string):
-    alphabet_char = "abcdefghklmnopqrstuvwz"
+    alphabet_char = "abcdefghijklmnopqrstuvwxyz"
 
     for char in alphabet_char:
         if char not in string.lower():
